@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1: Thao tác với Tệp tin và Thư mục | Trần Linh Giang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="decor-bg">
+        <div class="soft-orb orb-1"></div>
+        <div class="soft-orb orb-2"></div>
+        <div class="soft-orb orb-3"></div>
+    </div>
+
+    <div class="floating-icons">
+        <div class="floating-icon fi-1">🪼</div>
+        <div class="floating-icon fi-2">🐬</div>
+        <div class="floating-icon fi-3">🦋</div>
+        <div class="floating-icon fi-4">🐳</div>
+        <div class="floating-icon fi-5">🐋</div>
+        <div class="floating-icon fi-6">🦭</div>
+        <div class="floating-icon fi-7">🐚</div>
+        <div class="floating-icon fi-8">🌊</div>
+        <div class="floating-icon fi-9">☁️</div>
+        <div class="floating-icon fi-10">🌧️</div>
+    </div>
+
+    <div class="bg-text">Portfolio</div>
+
+    <div class="wave-container">
+        <div class="wave"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+    </div>
+
+    <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sidebar-avatar">
+            <img src="assets/avatar.jpg" alt="Avatar">
+        </div>
+        <div class="sidebar-name">Giang</div>
+        <div class="sidebar-role">Sinh viên</div>
+        <nav class="sidebar-nav">
+            <a href="index.html">
+                <span class="nav-icon">🏠</span>
+                <span>GIỚI THIỆU</span>
+            </a>
+            <a href="projects.html" class="active">
+                <span class="nav-icon">📂</span>
+                <span>DỰ ÁN</span>
+            </a>
+            <a href="summary.html">
+                <span class="nav-icon">📝</span>
+                <span>TỔNG KẾT</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="sidebar-footer-text">Portfolio 2026</div>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <a href="projects.html" class="back-link">← Quay lại danh sách dự án</a>
+
+        <div class="page-header">
+            <div class="page-header-title">✿ BÀI 1: THAO TÁC CƠ BẢN VỚI TỆP TIN VÀ THƯ MỤC ✿</div>
+            <div class="page-header-subtitle">Trình bày cấu trúc thư mục tối ưu và quy tắc đặt tên tệp đã thiết lập</div>
+        </div>
+
+        <div class="hw-report-title">
+            <div class="hw-report-icon">📁</div>
+            <div class="hw-report-main">HƯỚNG DẪN THAO TÁC CƠ BẢN VỚI TỆP TIN VÀ THƯ MỤC</div>
+            <div class="hw-report-topic">Thực hành trên Windows Explorer: tạo, sao chép, di chuyển, xóa và khôi phục tệp tin</div>
+            <a href="https://tlgiang.github.io/assets/hw/tmplbvoat_bt1_25041612_tran-linh-giang.docx" class="hw-download" download><span class="hw-download-icon">📥</span> Tải file gốc (.docx)</a>
+        </div>
+
+        <!-- STEPS -->
+        <div class="hw-section">
+            <div class="hw-section-title">1. Mở File Explorer</div>
+            <div class="hw-section-body">
+                <p>Nhấn tổ hợp phím <strong>Windows + E</strong> hoặc nhấp vào biểu tượng thư mục màu vàng trên thanh tác vụ.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image1.png" alt="Mở File Explorer"><div class="hw-img-caption">Mở File Explorer</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">2. Truy cập ổ đĩa / thư mục</div>
+            <div class="hw-section-body">
+                <p>Ở cột bên trái, nhấp vào <strong>This PC</strong>, sau đó nhấp đúp vào một ổ đĩa không phải ổ hệ thống (ví dụ: ổ D: hoặc E:). Nếu chỉ có ổ C:, hãy vào thư mục <strong>Documents</strong>.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image2.png" alt="Truy cập ổ đĩa"><div class="hw-img-caption">Truy cập ổ đĩa / thư mục</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">3. Tạo thư mục mới</div>
+            <div class="hw-section-body">
+                <p>Nhấp chuột phải vào một khoảng trống → chọn <strong>New → Folder</strong>. Đặt tên thư mục là <code>ThucHanh_TenSinhVien</code> (ví dụ: <code>ThucHanh_NguyenVanA</code>). Nhấn Enter.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image3.png" alt="Tạo thư mục mới"><div class="hw-img-caption">Tạo thư mục mới</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">4. Vào thư mục vừa tạo</div>
+            <div class="hw-section-body">
+                <p>Nhấp đúp vào thư mục <code>ThucHanh_NguyenVanA</code>.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image4.png" alt="Vào thư mục"><div class="hw-img-caption">Vào thư mục vừa tạo</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">5. Tạo tệp tin văn bản</div>
+            <div class="hw-section-body">
+                <p>Nhấp chuột phải vào khoảng trống → <strong>New → Text Document</strong>. Đặt tên là <code>GhiChu.txt</code>. Nhấn Enter.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image5.png" alt="Tạo tệp tin"><div class="hw-img-caption">Tạo tệp GhiChu.txt</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">6. Đổi tên tệp tin</div>
+            <div class="hw-section-body">
+                <p>Nhấp chuột phải vào tệp <code>GhiChu.txt</code> → chọn <strong>Rename</strong>. Đổi tên thành <code>GhiChuQuanTrong.txt</code>. Nhấn Enter.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image6.png" alt="Đổi tên tệp tin"><div class="hw-img-caption">Đổi tên tệp tin</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">7. Tạo thư mục con</div>
+            <div class="hw-section-body">
+                <p>Trong thư mục <code>ThucHanh_TenSinhVien</code>, nhấp chuột phải → <strong>New → Folder</strong>. Đặt tên là <code>TaiLieu</code>.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image7.png" alt="Tạo thư mục con"><div class="hw-img-caption">Tạo thư mục con TaiLieu</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">8. Sao chép tệp tin (Copy & Paste)</div>
+            <div class="hw-section-body">
+                <p>Nhấp chuột phải vào tệp <code>GhiChuQuanTrong.txt</code> → chọn <strong>Copy</strong> (hoặc nhấn <strong>Ctrl + C</strong>).</p>
+                <p>Nhấp đúp vào thư mục <code>TaiLieu</code>, nhấp chuột phải → <strong>Paste</strong> (hoặc nhấn <strong>Ctrl + V</strong>). Bây giờ bạn có một bản sao của tệp trong thư mục TaiLieu.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image8.png" alt="Copy & Paste"><div class="hw-img-caption">Copy và Paste tệp tin</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">9. Di chuyển tệp tin (Cut & Paste)</div>
+            <div class="hw-section-body">
+                <p>Quay lại thư mục <code>ThucHanh_TenSinhVien</code>. Tạo một tệp mới tên là <code>DiChuyen.txt</code>.</p>
+                <p>Nhấp chuột phải vào tệp <code>DiChuyen.txt</code> → chọn <strong>Cut</strong> (hoặc nhấn <strong>Ctrl + X</strong>).</p>
+                <p>Nhấp đúp vào thư mục <code>TaiLieu</code>, nhấp chuột phải → <strong>Paste</strong> (hoặc nhấn <strong>Ctrl + V</strong>). Tệp gốc đã biến mất khỏi vị trí cũ và chỉ còn ở vị trí mới.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap"><img src="assets/hw/images/bai1/image9.png" alt="Cut tệp tin"><div class="hw-img-caption">Cut tệp tin</div></div>
+                    <div class="hw-img-wrap"><img src="assets/hw/images/bai1/image10.png" alt="Paste di chuyển"><div class="hw-img-caption">Paste di chuyển</div></div>
+                </div>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image11.png" alt="Kết quả di chuyển"><div class="hw-img-caption">Kết quả: tệp đã di chuyển</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">10. Xóa tệp tin</div>
+            <div class="hw-section-body">
+                <p>Trong thư mục <code>TaiLieu</code>, nhấp chuột phải vào tệp <code>GhiChuQuanTrong.txt</code> → chọn <strong>Delete</strong>. Tệp sẽ được chuyển vào Thùng rác (Recycle Bin).</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap"><img src="assets/hw/images/bai1/image12.png" alt="Xóa tệp tin"><div class="hw-img-caption">Xóa tệp tin</div></div>
+                    <div class="hw-img-wrap"><img src="assets/hw/images/bai1/image13.png" alt="Thùng rác"><div class="hw-img-caption">Tệp chuyển vào Thùng rác</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">11. Xóa vĩnh viễn</div>
+            <div class="hw-section-body">
+                <p>Chọn tệp <code>DiChuyen.txt</code>, nhấn giữ phím <strong>Shift</strong> và nhấn phím <strong>Delete</strong>. Một cảnh báo sẽ hiện ra. Nếu đồng ý, tệp sẽ bị xóa vĩnh viễn mà không qua Thùng rác.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap single"><img src="assets/hw/images/bai1/image14.png" alt="Xóa vĩnh viễn"><div class="hw-img-caption">Xóa vĩnh viễn (Shift + Delete)</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hw-section">
+            <div class="hw-section-title">12. Khôi phục từ Thùng rác (Tùy chọn)</div>
+            <div class="hw-section-body">
+                <p>Tìm biểu tượng <strong>Recycle Bin</strong> trên màn hình nền, nhấp đúp để mở. Tìm tệp <code>GhiChuQuanTrong.txt</code> đã xóa, nhấp chuột phải vào nó và chọn <strong>Restore</strong>. Tệp sẽ quay trở lại vị trí ban đầu.</p>
+                <div class="hw-images">
+                    <div class="hw-img-wrap"><img src="assets/hw/images/bai1/image15.png" alt="Thùng rác"><div class="hw-img-caption">Mở Thùng rác</div></div>
+                    <div class="hw-img-wrap"><img src="assets/hw/images/bai1/image16.png" alt="Restore"><div class="hw-img-caption">Khôi phục tệp tin</div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="contact-strip">
+            <div class="contact-strip-title">✿ THÔNG TIN LIÊN HỆ ✿</div>
+            <div class="contact-strip-grid">
+                <div class="contact-chip">
+                    <div class="contact-chip-icon">📞</div>
+                    <div class="contact-chip-text">0918965133</div>
+                </div>
+                <div class="contact-chip">
+                    <div class="contact-chip-icon">🎓</div>
+                    <div class="contact-chip-text">MSV: 25041612</div>
+                </div>
+                <div class="contact-chip">
+                    <div class="contact-chip-icon">✉️</div>
+                    <div class="contact-chip-text">lgiangtlgiang@gmail.com</div>
+                </div>
+                <div class="contact-chip">
+                    <div class="contact-chip-icon">📍</div>
+                    <div class="contact-chip-text">ĐH Ngoại Ngữ - ULIS</div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
