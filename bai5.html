@@ -96,23 +96,24 @@
         <div class="hw-section">
             <div class="hw-section-title">I. Mục tiêu và lựa chọn dự án</div>
             <div class="hw-section-body">
-                <p>Mục tiêu: Thành thạo việc sử dụng các công cụ AI tạo sinh để hỗ trợ quá trình sáng tạo nội dung số, đồng thời rèn luyện khả năng đánh giá, chỉnh sửa và kết hợp đầu ra của AI với tư duy phân tích cá nhân.</p>
-                <p>Dự án: Bài viết (blog post) "Tác động của mạng xã hội đến khả năng tập trung của sinh viên" — chủ đề có tính thời sự cao, gắn liền với trải nghiệm học tập thực tế, khai thác cả góc độ khoa học thần kinh lẫn góc độ ứng dụng.</p>
+                <p>Mục tiêu của bài tập là thành thạo việc sử dụng các công cụ AI tạo sinh để hỗ trợ quá trình sáng tạo nội dung số, đồng thời rèn luyện khả năng đánh giá, chỉnh sửa và kết hợp đầu ra của AI với tư duy phân tích của cá nhân.</p>
+                <p>Dự án được lựa chọn là một bài viết (blog post) thuộc lĩnh vực Khoa học/Giáo dục, với chủ đề: "Tác động của mạng xã hội đến khả năng tập trung của sinh viên". Chủ đề này được chọn vì có tính thời sự cao, gắn liền với trải nghiệm học tập thực tế của sinh viên CS4, và cho phép khai thác cả góc độ khoa học thần kinh (cơ chế chú ý, dopamine) lẫn góc độ ứng dụng (giải pháp thực tiễn).</p>
+                <p>Ba công cụ AI tạo sinh được sử dụng trong toàn bộ quy trình:</p>
                 <div class="hw-criteria-grid">
                     <div class="hw-criterion">
                         <div class="hw-criterion-icon">💬</div>
                         <div class="hw-criterion-title">ChatGPT</div>
-                        <div class="hw-criterion-desc">Xây dựng dàn ý, viết nội dung, hoàn thiện văn phong.</div>
+                        <div class="hw-criterion-desc">Công cụ AI tạo văn bản, dùng để xây dựng dàn ý, viết nội dung và hoàn thiện văn phong.</div>
                     </div>
                     <div class="hw-criterion">
                         <div class="hw-criterion-icon">🖼️</div>
                         <div class="hw-criterion-title">DALL-E</div>
-                        <div class="hw-criterion-desc">Tạo ảnh minh họa mở đầu bài viết.</div>
+                        <div class="hw-criterion-desc">Công cụ AI tạo hình ảnh, dùng để tạo ảnh minh họa mở đầu bài viết.</div>
                     </div>
                     <div class="hw-criterion">
                         <div class="hw-criterion-icon">🎨</div>
                         <div class="hw-criterion-title">Canva AI</div>
-                        <div class="hw-criterion-desc">Dàn trang, chọn bố cục, tạo banner/thumbnail.</div>
+                        <div class="hw-criterion-desc">Công cụ AI hỗ trợ thiết kế, dùng để dàn trang, chọn bố cục và tạo banner/thumbnail cho bài viết.</div>
                     </div>
                 </div>
             </div>
@@ -120,64 +121,81 @@
 
         <!-- CHATGPT -->
         <div class="hw-section">
-            <div class="hw-section-title">II.1 — ChatGPT: Tạo nội dung văn bản</div>
+            <div class="hw-section-title">II.1 — Công cụ AI tạo văn bản — ChatGPT</div>
             <div class="hw-section-body">
                 <div class="hw-prompt-card">
-                    <div class="hw-prompt-level hw-prompt-basic">Prompt 1</div>
+                    <div class="hw-prompt-level hw-prompt-basic">Prompt 1 (Xây dựng dàn ý)</div>
                     <div class="hw-prompt-text">"Hãy gợi ý dàn ý cho một bài blog khoảng 800 từ, chủ đề tác động của mạng xã hội đến khả năng tập trung của sinh viên, hướng tới đối tượng đọc là sinh viên đại học, giọng văn gần gũi nhưng có cơ sở khoa học."</div>
-                    <div class="hw-prompt-result">ChatGPT đề xuất cấu trúc 5 phần: Mở đầu bằng tình huống quen thuộc → Giải thích cơ chế dopamine → Hệ quả lên tập trung → Nghiên cứu/số liệu → Giải pháp thực tiễn.</div>
+                    <div class="hw-prompt-result">Kết quả: ChatGPT đề xuất cấu trúc 5 phần: (1) Mở đầu bằng một tình huống quen thuộc (vừa học vừa lướt điện thoại), (2) Giải thích cơ chế "nghiện thông báo" dưới góc độ dopamine, (3) Hệ quả lên khả năng tập trung và trí nhớ làm việc, (4) Một số nghiên cứu/số liệu minh họa, (5) Giải pháp thực tiễn cho sinh viên.</div>
                 </div>
                 <div class="hw-prompt-card">
-                    <div class="hw-prompt-level hw-prompt-improved">Prompt 2</div>
+                    <div class="hw-prompt-level hw-prompt-improved">Prompt 2 (Đi sâu nội dung)</div>
                     <div class="hw-prompt-text">"Viết đoạn giải thích cơ chế dopamine khi nhận thông báo mạng xã hội, dùng ngôn ngữ dễ hiểu, có thể ví dụ hoặc hình ảnh so sánh, tránh thuật ngữ y khoa phức tạp."</div>
-                    <div class="hw-prompt-result">ChatGPT viết đoạn so sánh việc nhận thông báo với cơ chế "phần thưởng ngẫu nhiên" (giống máy đánh bạc), giải thích vì sao não bộ liên tục muốn kiểm tra điện thoại.</div>
+                    <div class="hw-prompt-result">Kết quả: ChatGPT viết một đoạn so sánh việc nhận thông báo với cơ chế "phần thưởng ngẫu nhiên" (giống máy đánh bạc), giải thích vì sao não bộ liên tục muốn kiểm tra điện thoại dù không có thông báo mới.</div>
                 </div>
                 <div class="hw-prompt-card">
-                    <div class="hw-prompt-level hw-prompt-advanced">Prompt 3</div>
+                    <div class="hw-prompt-level hw-prompt-advanced">Prompt 3 (Tối ưu văn phong)</div>
                     <div class="hw-prompt-text">"Hãy biên tập lại đoạn mở đầu sau cho sinh động hơn, thêm một câu hook gây tò mò ở câu đầu tiên: [đoạn mở đầu do tôi viết]"</div>
-                    <div class="hw-prompt-result">ChatGPT đề xuất câu mở đầu dạng câu hỏi trực diện với người đọc, tạo cảm giác đồng cảm trước khi dẫn vào nội dung chính.</div>
+                    <div class="hw-prompt-result">Kết quả: ChatGPT đề xuất câu mở đầu dạng câu hỏi trực diện với người đọc, tạo cảm giác đồng cảm trước khi dẫn vào nội dung chính.</div>
                 </div>
             </div>
         </div>
 
         <!-- DALL-E -->
         <div class="hw-section">
-            <div class="hw-section-title">II.2 — DALL-E: Tạo ảnh minh họa</div>
+            <div class="hw-section-title">II.2 — Công cụ AI tạo hình ảnh — DALL-E</div>
             <div class="hw-section-body">
                 <div class="hw-prompt-card">
                     <div class="hw-prompt-level hw-prompt-basic">Prompt ảnh</div>
                     <div class="hw-prompt-text">"Minimalist flat illustration of a student studying at a desk, half-distracted by phone notifications represented as small colorful bubbles floating away from the book, soft pastel color palette, clean and modern style."</div>
-                    <div class="hw-prompt-result">Lần đầu: bố cục hơi rối vì có quá nhiều chi tiết nhỏ. Sau khi chỉnh prompt (thêm "minimal background, no text, single focal point"), ảnh lần hai có bố cục rõ ràng hơn.</div>
+                    <div class="hw-prompt-result">Kết quả: DALL-E tạo ra ảnh minh họa đúng tinh thần "mất tập trung" nhưng ở lần tạo đầu tiên, bố cục hơi rối vì có quá nhiều chi tiết nhỏ. Sau khi chỉnh prompt (thêm yêu cầu "minimal background, no text, single focal point"), ảnh ở lần thứ hai có bố cục rõ ràng hơn, phù hợp để làm ảnh minh họa đầu bài.</div>
                 </div>
             </div>
         </div>
 
         <!-- CANVA -->
         <div class="hw-section">
-            <div class="hw-section-title">II.3 — Canva AI: Thiết kế bố cục</div>
+            <div class="hw-section-title">II.3 — Công cụ AI hỗ trợ thiết kế — Canva AI (Magic Design)</div>
             <div class="hw-section-body">
-                <p>Sau khi có nội dung văn bản và ảnh minh họa, Canva AI được dùng để gợi ý bố cục trình bày: chia bài viết thành các khối có khoảng trắng hợp lý, đề xuất bảng màu pastel đồng bộ với ảnh từ DALL-E, và tạo banner/thumbnail tóm tắt chủ đề bằng tính năng Magic Design.</p>
+                <p>Sau khi có nội dung văn bản và ảnh minh họa, Canva AI được dùng để gợi ý bố cục trình bày: chia bài viết thành các khối có khoảng trắng hợp lý, đề xuất bảng màu pastel đồng bộ với ảnh từ DALL-E, và tạo một banner/thumbnail tóm tắt chủ đề bài viết bằng tính năng Magic Design, dựa trên từ khóa "student attention social media".</p>
                 <p>Canva AI đề xuất 3 mẫu thumbnail khác nhau; mẫu được chọn là mẫu có tiêu đề lớn, ảnh minh họa làm nền mờ phía sau để chữ vẫn dễ đọc.</p>
             </div>
         </div>
 
         <!-- EVALUATION -->
         <div class="hw-section">
-            <div class="hw-section-title">III. Đánh giá, chỉnh sửa và tích hợp</div>
+            <div class="hw-section-title">III. Đánh giá, chỉnh sửa và tích hợp đầu ra</div>
             <div class="hw-section-body">
-                <p><strong>Cách chỉnh sửa:</strong></p>
-                <p>Thay ví dụ chung của ChatGPT bằng tình huống cụ thể (sinh viên vừa đọc tài liệu vừa kiểm tra điện thoại khi có tin nhắn nhóm bài tập lớn). Bổ sung đoạn liên hệ với trải nghiệm học online/làm đồ án. Chỉnh crop và độ sáng ảnh DALL-E trong Canva. Chọn lại bảng màu, giảm độ chói để phù hợp chủ đề tập trung/chánh niệm.</p>
-                <p><strong>Tỷ lệ đóng góp:</strong> AI hỗ trợ khoảng <strong>45%</strong> (dàn ý, đoạn giải thích khoa học, ảnh minh họa gốc, gợi ý bố cục); <strong>55%</strong> còn lại — ví dụ thực tế, liên hệ cá nhân, chỉnh sửa hình ảnh, quyết định bố cục cuối cùng — do tác giả tự thực hiện.</p>
+                <p><strong>So sánh kết quả giữa các công cụ:</strong></p>
+                <p>ChatGPT cho nội dung văn bản có cấu trúc mạch lạc và lập luận hợp lý, nhưng các ví dụ ban đầu khá chung, mang tính "sách giáo khoa", thiếu chất liệu thực tế của sinh viên Việt Nam. DALL-E tạo hình ảnh nhanh và đúng phong cách yêu cầu, nhưng cần lặp lại prompt 2 lần để loại bỏ chi tiết thừa. Canva AI mạnh về gợi ý bố cục và phối màu, nhưng các mẫu thumbnail đề xuất khá giống nhau về cấu trúc, cần chọn lọc và chỉnh tay để tránh trùng khuôn mẫu.</p>
+                <p><strong>Cách chỉnh sửa và tích hợp:</strong></p>
+                <p>Thay ví dụ chung của ChatGPT bằng tình huống cụ thể: cảnh sinh viên vừa đọc tài liệu vừa kiểm tra điện thoại khi có tin nhắn nhóm bài tập lớn — chi tiết này do người viết tự thêm vào.</p>
+                <p>Bổ sung một đoạn liên hệ với trải nghiệm học online/làm đồ án để bài viết gần gũi hơn với sinh viên CS4, thay vì chỉ giữ phần lý thuyết do ChatGPT cung cấp.</p>
+                <p>Chỉnh crop và độ sáng ảnh từ DALL-E trong Canva để ảnh hài hòa hơn với nền chữ khi ghép vào bài viết.</p>
+                <p>Chọn lại bảng màu từ gợi ý của Canva AI, giảm độ chói của tông màu mặc định để bài viết trông điềm tĩnh, phù hợp chủ đề tập trung/chánh niệm.</p>
+                <p><strong>Tỷ lệ đóng góp ước tính:</strong> AI hỗ trợ khoảng <strong>45%</strong> (dàn ý, một số đoạn giải thích khoa học, ảnh minh họa gốc, gợi ý bố cục); <strong>55%</strong> còn lại — bao gồm ví dụ thực tế, phần liên hệ cá nhân, chỉnh sửa hình ảnh và quyết định bố cục cuối cùng — do người thực hiện tự viết và hoàn thiện.</p>
+                <div class="hw-prompt-card">
+                    <div class="hw-prompt-level hw-prompt-advanced">Tuyên bố minh bạch trích dẫn (AI Citation)</div>
+                    <div class="hw-prompt-text">"Dàn ý tổng thể, một số đoạn giải thích cơ chế dopamine, và hình ảnh minh họa gốc của bài viết này được tạo với sự hỗ trợ của ChatGPT và DALL-E. Bố cục trình bày và bảng màu có tham khảo gợi ý từ Canva AI. Các ví dụ thực tế, phần liên hệ trải nghiệm cá nhân, và quyết định chỉnh sửa cuối cùng đều do tác giả tự thực hiện và chịu trách nhiệm độc lập."</div>
+                </div>
             </div>
         </div>
 
         <!-- ANALYSIS -->
         <div class="hw-section">
-            <div class="hw-section-title">IV. Phân tích vai trò của AI</div>
+            <div class="hw-section-title">IV. Phân tích vai trò của AI trong quá trình sáng tạo</div>
             <div class="hw-section-body">
-                <p><strong>AI làm tốt:</strong> Rút ngắn thời gian khởi động dự án, giúp tránh "nhìn trang giấy trắng". DALL-E và Canva AI tạo nhanh phương án hình ảnh/bố cục để so sánh.</p>
-                <p><strong>Hạn chế:</strong> Nội dung từ AI có xu hướng an toàn, chung chung, thiếu chất liệu thực tế và cảm xúc cá nhân. Hình ảnh DALL-E đôi khi không nhất quán. Mẫu thiết kế Canva dễ tạo cảm giác "nội dung được tạo bởi AI" nếu không chỉnh sửa thêm.</p>
-                <p><strong>Đạo đức:</strong> Cần minh bạch khai báo phần AI hỗ trợ. Thông tin khoa học cần đối chiếu nguồn uy tín. Kiểm tra điều khoản bản quyền ảnh DALL-E.</p>
+                <p><strong>Những phần AI làm tốt:</strong></p>
+                <p>AI tạo sinh thể hiện rõ thế mạnh ở việc rút ngắn thời gian khởi động một dự án: chỉ trong vài phút, ChatGPT đã đưa ra một dàn ý có cấu trúc hợp lý, giúp tránh được tình trạng "nhìn trang giấy trắng". DALL-E và Canva AI cũng giúp tạo nhanh các phương án hình ảnh/bố cục để so sánh, thay vì phải tự vẽ hoặc dàn trang từ đầu.</p>
+                <p><strong>Những phần còn hạn chế:</strong></p>
+                <p>Nội dung văn bản từ AI có xu hướng an toàn, chung chung, thiếu chất liệu thực tế và cảm xúc cá nhân — đây là phần mà người viết phải chủ động bổ sung. Hình ảnh từ DALL-E đôi khi không nhất quán giữa các lần tạo, cần thử nhiều prompt mới ra được kết quả ưng ý. Các mẫu thiết kế của Canva AI cũng có xu hướng giống các mẫu phổ biến trên nền tảng, dễ tạo cảm giác "nội dung được tạo bởi AI" nếu không chỉnh sửa thêm.</p>
+                <p><strong>Cách AI thay đổi quy trình sáng tạo:</strong></p>
+                <p>So với cách làm truyền thống, AI giúp dịch chuyển trọng tâm công việc: thay vì dành nhiều thời gian cho việc lên khung sườn ban đầu, người thực hiện có thể tập trung thời gian vào việc chọn lọc, kiểm chứng và cá nhân hóa nội dung. Tuy nhiên, điều này cũng đòi hỏi kỹ năng đánh giá phản hồi AI tốt hơn, vì nếu thiếu sự chọn lọc, sản phẩm cuối cùng dễ trở nên hời hợt và thiếu dấu ấn riêng.</p>
+                <p><strong>Các vấn đề đạo đức cần cân nhắc:</strong></p>
+                <p><strong>Tính minh bạch:</strong> cần khai báo rõ phần nào do AI hỗ trợ, tránh để người đọc hiểu nhầm toàn bộ nội dung là tự viết.</p>
+                <p><strong>Độ chính xác khoa học:</strong> các thông tin liên quan đến dopamine và não bộ do ChatGPT cung cấp cần được đối chiếu với nguồn khoa học uy tín trước khi công bố, vì AI có thể đơn giản hóa quá mức hoặc trình bày sai lệch cơ chế sinh học.</p>
+                <p><strong>Bản quyền hình ảnh:</strong> ảnh do DALL-E tạo cần kiểm tra điều khoản sử dụng của nền tảng trước khi đăng tải công khai, đặc biệt nếu bài viết được dùng cho mục đích ngoài phạm vi học thuật.</p>
+                <p><strong>Nhận định cá nhân:</strong> AI tạo sinh là một trợ lý hiệu quả cho giai đoạn khởi tạo và hoàn thiện hình thức, nhưng giá trị thực sự của một bài viết khoa học/giáo dục vẫn nằm ở góc nhìn, ví dụ thực tế và sự kiểm chứng mà chỉ người viết mới có thể đóng góp.</p>
             </div>
         </div>
 

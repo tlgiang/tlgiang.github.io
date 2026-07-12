@@ -1130,14 +1130,17 @@ body {
    HOMEWORK DETAIL PAGES
 ========================================= */
 .back-link {
+    position: fixed;
+    top: 20px;
+    left: 240px;
+    z-index: 1001;
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-bottom: 24px;
     padding: 10px 20px;
-    background: var(--glass-bg);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
     color: var(--aqua-dark);
@@ -1145,6 +1148,7 @@ body {
     font-weight: 600;
     font-size: 0.95rem;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(135, 206, 235, 0.12);
 }
 .back-link:hover {
     background: rgba(135, 206, 235, 0.2);
@@ -1529,12 +1533,19 @@ body {
     height: auto;
     display: block;
     object-fit: contain;
-    max-height: 500px;
+    max-height: 420px;
     border-bottom: 1px solid rgba(135,206,235,0.15);
 }
 .hw-img-wrap.single {
     flex: 1 1 100%;
-    max-width: 700px;
+    max-width: 650px;
+}
+.hw-img-wrap.triple {
+    flex: 1 1 calc(33.33% - 8px);
+    min-width: 180px;
+}
+.hw-images.has-4 .hw-img-wrap {
+    flex: 1 1 calc(50% - 6px);
 }
 .hw-img-caption {
     padding: 8px 14px;
@@ -1609,5 +1620,11 @@ body {
     }
     .hw-img-wrap img {
         max-height: 350px;
+    }
+    .back-link {
+        left: 16px;
+        top: 12px;
+        padding: 8px 14px;
+        font-size: 0.85rem;
     }
 }
